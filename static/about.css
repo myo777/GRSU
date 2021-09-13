@@ -1,0 +1,207 @@
+#about {
+    height: 70vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    background: url(../image/unity2.jfif), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+    background: url(../image/unity2.jfif), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    padding-top: 5rem;
+    position: relative;
+    text-align: center;
+  }
+  
+  #about h1 {
+    font-size: 9rem;
+    margin: 0 .5rem;
+    color: #fff;
+  }
+  
+  #about h3 {
+    font-size: 7rem;
+    color: #E6022D;
+    margin: 1rem 0;
+  }
+  
+  #about button {
+    margin: 2rem 0;
+    font-size: 2rem;
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid #E6022D;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #E6022D;
+    font-weight: bold;
+  }
+  
+  #about button:hover {
+    background: #E6022D;
+    color: #fff;
+  }
+  
+  #about .icons {
+    position: absolute;
+    bottom: 7.5rem;
+    margin: auto;
+    z-index: 1;
+  }
+  
+  #about .icons a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: #E6022D;
+
+  }
+  
+  #about .icons a:hover {
+    color: #333;
+  }
+  
+  #about .shape-image {
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+  }
+  
+  #about .shape-image img {
+    height: 15rem;
+    width: 100vw;
+  }
+
+  #main {
+    height: 300px;
+    width: 80vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin: 0 auto;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    background-color: #ededed;
+    margin-bottom: 20px;
+    margin-top: -60px;
+    border-radius: 20px 0px 20px 0px;
+  }
+
+
+  #main h1 {
+    font-size: 18px;
+    margin: 0 .5rem;
+    color: #E6022D;
+    border-bottom: 2px solid #E6022D;
+    margin-bottom: 20px;
+  }
+  
+  #main h3 {
+    font-size: 14px;
+    margin: 1rem 0;
+  }
+  
+
+  #content {
+    height: auto;
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+  }
+
+  .one, .two {
+    width: 48%;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+   .aim, .mission, .value, .ACTIVITIES, .VISION{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 5px;
+    background-color: #ededed;
+   }
+
+   .border{
+       height: 3px;
+       width: 80px;
+       background-color: #E6022D;
+       margin-bottom: 20px;
+   }
+   .one h1{
+    font-size: 18px;
+    margin: 0 .5rem;
+    color: #E6022D;
+    margin-bottom: 10px;
+   }
+
+   .one p{
+    font-size: 14px;
+    margin: 0 .5rem;
+    margin-bottom: 30px;
+   }
+
+   .one ul{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+   }
+
+   .one ul li{
+    margin-bottom: 10px;
+   }
+
+   .two h1{
+    font-size: 18px;
+    margin: 0 .5rem;
+    color: #E6022D;
+    margin-bottom: 10px;
+   }
+
+   .two p{
+    font-size: 14px;
+    margin: 0 .5rem;
+    margin-bottom: 30px;
+   }
+
+   .two ul{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+   }
+
+   .two ul li{
+    margin-bottom: 10px;
+   }
